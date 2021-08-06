@@ -1,0 +1,53 @@
+webdriver-manager start
+1.create a package.json file-
+
+npm init
+
+2.add dependencies into it
+
+
+"dependencies": {
+    "@types/jasmine": "2.5.41",
+    "@types/jasminewd2": "^2.0.0",
+    "jasmine": "^2.4.1",
+    "protractor": "^5.4.2",
+    "typescript": "~2.0.0",
+    "ts-node": "^3.0.2",
+    "@types/node": "10.12.18"
+  }
+
+
+3.run 
+npm install -g protractor
+npm install -g typescript
+npm install -g jasmine
+
+or
+
+npm install protractor
+npm install  typescript
+npm install  jasmine
+-----------
+
+4.tsc --init   -tsconfig.json is created to convert tc to js file
+5.tsc spec.ts    converts ts to js file
+tsc
+6.protractor conf.js   runs actual js file
+
+
+-----------
+
+page-objects
+resources-sanity,regression
+utilities - common codes
+resourced - data files-uk-domain-testdata
+properties-json file
+
+config.js-->>
+params:{
+country: 'us'
+locale:'en_GB'
+}
+------------
+
+

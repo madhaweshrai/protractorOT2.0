@@ -1,0 +1,42 @@
+Data Types
+
+var samary =123;
+var name= "ram";
+var roi= 12.55;
+
+
+conditional statement
+
+-same as java if else concept
+
+loops
+
+same for,while,do while
+
+operator
+
+Js functions-
+
+
+function abc(){ }
+function abc2(a+b){ return a+b;}
+cons.log(abc2(2,3))
+
+
+------
+JS Arrays
+
+var arr=["",""]
+
+var arr= new arr[];
+
+--------
+String
+
+var name= "maddy";
+name.length , name.charat(2),name.concat(name2)......
+
+---------
+
+
+

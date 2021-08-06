@@ -1,0 +1,73 @@
+1.install nodejs
+2.install vs code
+2.1  run npm install -g protractor
+
+3.run npm init-> creates package.json file
+4.all all dependencies-jasmine,protractor,typescript
+
+"dependencies": {
+    "protractor": "~7.0.0",
+    "typescript": "~4.3.4",
+    "jasmine": "~3.7.0",
+    "@types/jasmine": "3.7.7",
+    "@types/jasminewd2": "~2.0.9",
+    "protractor-beautiful-reporter": "~1.3.6",
+    "@types/node": "~15.12.5",
+    "protractor-html-reporter-2": "~1.0.4",
+    "jasmine-reporters": "~2.4.0",
+    "fs-extra": "~10.0.0",
+    "prompt-sync": "~4.2.0",
+    "exceljs": "~4.2.1"
+  },
+
+
+5.run npm install command
+if not
+6. run
+npm install -g protractor
+npm install -g typescript
+npm install -g jasmine
+
+
+6.add imp steps into package.json under script option-
+
+"scripts": {
+    "test": "protractor JSFile/conf.js ",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+
+7.run
+tsc--init   -> creates tsconfig.json file
+8. enable output folder in above file
+9. create a config.ts file-
+
+add below steps-
+
+ directConnect:true,
+ specs: ['TestCases/TC_001.js']
+
+10.run
+tsc    --> converts config.ts to config.js file
+
+11. run
+protractor config.js
+
+script should be run
+
+
+-------------------
+other commands
+npm install -g protractor
+webdriver-manager update
+webdriver-manager start
+
+npm config
+npm config set https-proxy http://emea%5Craim:hays%4012345@proxy.emea.hays.loc:8080/
+
+webdriver-manager update --proxy = http://emea%5Craim:hays%4012345@proxy.emea.hays.loc:8080/
+webdriver-manager update --ignore SSL -- proxy = http://emea%5Craim:hays%4012345@proxy.emea.hays.loc:8080/
+
+
+

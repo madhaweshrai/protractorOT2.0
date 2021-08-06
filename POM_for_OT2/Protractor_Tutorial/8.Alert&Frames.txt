@@ -1,0 +1,6 @@
+browser.switchto.alert();
+browser.switchto.frames(name/id);
+driver.getwindowhandles().then(function(handles){
+
+driver.switchto(handles[1]);
+})

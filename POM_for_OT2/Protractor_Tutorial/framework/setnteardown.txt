@@ -1,0 +1,27 @@
+setup-
+beforEach(function(){
+
+obj.get();
+
+})
+
+
+teardown-
+
+afterEach(function(){
+
+console.log("TC passed");
+
+})
+-----
+onPrepare function-
+
+go to config.js file
+
+specs:{}
+onPrepare:function()
+{
+browser.driver.manage.maximize();
+}
+
+-------------------------

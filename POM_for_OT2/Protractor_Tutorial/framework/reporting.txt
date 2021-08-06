@@ -1,0 +1,40 @@
+
+npmjs.com-search
+
+protractor jasmine2 html reporter:"0.0.7"
+
+var jasmine2htmlreporer= require('protractor-jasmine-html-reporter');
+
+add in config
+
+onPrepare: function () 
+    {      
+      jasmine.getEnv().addReporter(new HtmlReporter({
+      baseDirectory: 'Report/screenshots'
+     }).getJasmine2Reporter());
+  },
+
+
+--------------how to run specific test cases-------
+
+suit login
+
+config,js------
+
+suit:
+{
+smoke:"test1.js,test2.js"
+}
+
+go to package.json
+
+scripts:
+{
+"smokesuit": "./node-modules//bin/protractor/config.js" --suit smoke   //runs only smoke
+
+}
+
+//comment protractor line
+
+npm run smokesuit
+

@@ -1,0 +1,34 @@
+class= methods+props
+istall nodejs
+install visual studio
+
+class demo
+{
+username:string="hello";
+password:string;
+id:number;
+
+getter()
+{
+return this.username=;
+}
+
+
+
+}
+// make object outside the class
+
+var obj= new demo();
+obj.getter();
+console.log(obj.getter());
+---------------------------------------
+constructor
+
+class demo2
+{
+constructor(abc:number)
+{ this.ssn=abc;}
+
+}
+var obj= new demo2(123);
+obj.getter()'

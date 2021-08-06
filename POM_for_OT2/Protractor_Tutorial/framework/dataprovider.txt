@@ -1,0 +1,62 @@
+module.export.data=
+
+{
+first:"1",
+scnd:"2"
+}
+
+
+var obj=require(class1.js)
+
+obj.first
+obj.scnd
+
+-----------data.js----------
+
+
+jasmine-data-provider
+-------------------------------------
+modult.export=
+{
+dataProvider=
+{
+
+first:{
+first:"1",
+scnd:"2"
+},
+
+second:{
+first:"1",
+scnd:"2"
+},
+
+third:{
+first:"1",
+scnd:"2"
+}
+
+}
+}
+--------------demo.ja------
+ var using= require(jasmine-data-provider)
+var a=require("./data.js");
+
+
+using(a.dataProvider, function(data,description-used for reporting){
+
+it()   // it runs 3 times*2
+{
+obj.name.sendkeys(data.first);
+
+obj.name.sendkeys(data.scnd);
+
+}
+
+})
+
+
+
+
+
+

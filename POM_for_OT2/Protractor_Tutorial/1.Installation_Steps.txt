@@ -1,0 +1,73 @@
+1.install nodejs
+2.add to enviromnt var system and path both. NODE_HOME
+3. run command
+  3.1 npm install -g protractor
+This will install two command line tools, protractor and webdriver-manager. Try running protractor --version to make sure it's working.
+
+ 3.2webdriver-manager update
+Now start up a server with:
+
+ 3.3 webdriver-manager start
+
+
+webdriver-manager start --seleniumPort 12345
+ set-ExecutionPolicy unrestricted
+-------------
+---------------
+
+JAsmin framework- a framework for JS based applications
+
+Describe- TEst suit
+It-Test case
+Spec- TEst FIle like class in java{ Describe+ It} in Jasmin
+
+configuration file- All Spec files[scans all Spec files] and used to run Test Cases
+
+Spec = .Class file
+It= @Test
+Describe - Inside Spec like inside TestNG.xml
+Configuration file = TestNG.xml
+
+-------------------
+-----------------
+describe('suit name',function()
+{ 
+//All It blocks
+it('TC name', function()
+{
+//ALl logics
+})
+})
+      
+---------
+configuration file
+exports.config=
+{
+    seleniumAddress: 'http://localhost:12345/wd/hub.\',
+    specs: {'first tc'}
+};
+
+-------------
+How Test cases are run-
+
+Go to run configurations- set project name, set cli.js file and give a configuration name.
+click on Testrunner name and click on Run.
+
+
+
+------------------
+-----
+Install Angular.js pluin- To get auto suggestion in editor
+
+name-AngularJSEclipse 1.2.0
+convert to Turn Project.
+configure-> convert to turn project
+browser(.) ctrl+ space - you will get suggestions
+-----------
+
+Visual studio for Protector-
+
+1,install VS
+2. add 2 files
+3.Go to project path
+c://user/testproject/ protector configuration.js

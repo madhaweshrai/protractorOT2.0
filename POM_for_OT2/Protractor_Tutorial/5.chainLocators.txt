@@ -1,0 +1,30 @@
+Chain locators-
+
+ng-repeat
+element().element.element(td.nth-child(2));
+element.all().count.then() - finds more than 1 value
+how to repeat block
+
+element().each(function (item))
+{}
+
+----------
+element.all(by.css('.selector')).then(function(elements) {
+  // elements is an array of ElementFinders.
+});
+
+// Number of elements.
+element.all(locator).count();
+
+// Get by index (starting at 0).
+element.all(locator).get(index);
+
+// First and last.
+element.all(locator).first();
+element.all(locator).last();
+
+element.all(by.css('some-css')).first().element(by.tagName('tag-within-css'));
+element.all(by.css('some-css')).get(index).element(by.tagName('tag-within-css'));
+element.all(by.css('some-css')).first().all(by.tagName('tag-within-css'));
+
+

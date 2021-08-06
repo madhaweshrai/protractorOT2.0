@@ -1,0 +1,20 @@
+export class abc{
+
+}
+
+import abc from './classDemo'
+// access attributes of abc class
+
+
+--------
+interfaces
+
+
+
+pipes-
+anonymous function- fun with no names
+()=>  works as functio()
+
+it('tc121', ()=>{
+
+})

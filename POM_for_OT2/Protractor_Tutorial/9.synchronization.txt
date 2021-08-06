@@ -1,0 +1,29 @@
+Angular- not needed
+
+For Non Angular-
+var ec=protractor.expectedConditions
+browser.wait(ec.invisibilityof(element), 5000)
+
+npm --v
+npm config list  for proxy
+npm confir set 
+pkg.json
+npm init
+ tsc-- init
+tsconfig.json - conversion
+
+priority and numbering
+
+
+
+    npm config set https-proxy http://emea%5Craim:hays%4012345@proxy.emea.hays.loc:8080/
+​
+    webdriver-manager update --proxy = http://emea%5Craim:hays%4012345@proxy.emea.hays.loc:8080/
+
+    npm install -g protractor @5.4.2
+
+
+
+
+
+

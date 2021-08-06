@@ -1,0 +1,40 @@
+Global variable-
+
+browser - navigates page- browser.get();
+element - interacts with Dom elements
+
+by - collection of element locator strategies.
+
+protractor - static vars and class.
+
+
+locators- common locators
+ id,name,css,model,binding
+
+
+-------------------------------
+Assestions
+expect(element).gettext().toBe(8);
+expect(element).gettext().not.toBe(8);
+//in case of variable
+expect(element).gettext().toEquals(8);
+//in case of partial match
+expect(element).gettext().toMatch(8);
+
+-------------
+Multiple browser support
+capabilities
+{
+'browserName':'firefox'
+}
+
+for internet explorer run-
+webdriver-manager update --ie
+
+
+------------
+
+How to run on non angular sites-
+It will fail if website is not Angular- could not find angular on this site error.
+Add below code at first step-
+browser.waitForAngularEnabled(false);

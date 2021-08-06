@@ -1,0 +1,23 @@
+1. Javascript in Asynchronous.
+  - Every JS script returns a promise= it reflects state of our step.
+
+Promise- Pending,Resolved,Rejected
+code execution- Pending
+code executed- Resolved
+fails- Rejected
+
+Sync call- Next step only when step have Resolved/Rejected status  = Java,Python
+Async call- Next steps can be executed with Pending state also.   = JavaScript
+
+Protector- 90% of API will work Sync like Java except few APIs.- All methods that r performed on browser
+    like- click,sendkeys.
+------------------------
+10%- Gettext() method
+    console.log();
+exa- browser.get().then(function()
+{
+console.log();
+})
+
+
+

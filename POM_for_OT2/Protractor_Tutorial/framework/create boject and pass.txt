@@ -1,0 +1,24 @@
+ 
+................class1.js........
+
+function car()
+{
+this.fun1=function()
+{
+console.log("hello");
+};
+};
+//within the class
+   var a= new car();
+
+//outside class
+  module.export = new car();
+
+----------class2.js-----
+
+ var obj=required ("./class1.js");
+
+obj.fun1()
+
+--->o/p
+hello

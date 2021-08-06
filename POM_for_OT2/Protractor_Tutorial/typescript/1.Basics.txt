@@ -1,0 +1,28 @@
+addition ti JS with oops concept
+use of cont and let commands -Es5
+
+convert ts to js
+tsc basics.ts  ---> basics.js is converted
+
+let-
+
+for(let i-0;i<5;i++)
+{
+
+}
+--- works better than var
+
+---------------
+const-
+cont a=5;
+a=6; -- cant be modified
+
+----------
+typing kw- return type
+
+let b:string="hello";
+let b:number=6;
+let list:Array<number>=[1,2,3];
+let abc:any; -- any data
+
+
