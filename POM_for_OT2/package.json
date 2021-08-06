@@ -1,0 +1,28 @@
+{
+  "name": "pom_for_ot2",
+  "version": "1.0.0",
+  "description": "OT2 Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor JSFile/conf.js ",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "dependencies": {
+    "protractor": "~7.0.0",
+    "typescript": "~4.3.4",
+    "jasmine": "~3.7.0",
+    "@types/jasmine": "3.7.7",
+    "@types/jasminewd2": "~2.0.9",
+    "protractor-beautiful-reporter": "~1.3.6",
+    "@types/node": "~15.12.5",
+    "protractor-html-reporter-2": "~1.0.4",
+    "jasmine-reporters": "~2.4.0",
+    "fs-extra": "~10.0.0",
+    "prompt-sync": "~4.2.0",
+    "exceljs": "~4.2.1"
+  },
+  "author": "Jyoti",
+  "license": "ISC"
+}
